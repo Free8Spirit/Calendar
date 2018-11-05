@@ -45,7 +45,7 @@ _.forEach(Array.from(year.by('months')), month => {
         })
     
         
-            for (var i = 0; i < month.daysInMonth; i++) //TODO: create a for() loopthat loops through month.day()
+            for (var i = 0; i < month.day(); i++) //TODO: create a for() loopthat loops through month.day()
             {
                 paddedDays.unshift('  ') //TODO: Append blank spaces (using paddedDays.unshift('  ')) so that the 1st ends up under the right day column 
             }
